@@ -1,0 +1,13 @@
+/* ==UserStyle==
+@name           Make Nexus Read Notifications Fade
+@version        1.0
+@description    Makes the read notification in the new UI fade like the old UI.
+@author         @wxmichael
+@namespace      github.com/Synthlight/Nexus-Design-Fixes/Fade-Notifications
+==/UserStyle== */
+
+@-moz-document domain("nexusmods.com") {
+    .group\/notification:not(.bg-surface-mid) {
+        opacity: 0.5;
+    }
+}
